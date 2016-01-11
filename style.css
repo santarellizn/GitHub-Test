@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Open Sans' , sans-serif;
+    text-align:center;
+}
+
+p {
+text-align:center;
+font-family: 'Open Sans' , sans-serif;
+}
+
+body {
+    background-color:lightgray;
+
+}
+
+a {
+    font-family: 'Open Sans' , sans-serif;
+    text-decoration: none; 
+    color:orange;
+    transition-property:color;
+    transition-duration: .5s;
+    
+}
+
+a:hover {
+color:orangered; 
+}
