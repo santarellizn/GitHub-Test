@@ -1,22 +1,19 @@
-h1 {
-    font-family: 'Open Sans' , sans-serif;
-    text-align:center;
-}
-
 p {
 text-align:center;
 font-family: 'Open Sans' , sans-serif;
 }
 
 body {
-    background-color:lightgray;
+    background-color:#D4D4D4;
+    margin: 0;
+    padding 0;
 
 }
 
-a {
+.bodylink {
     font-family: 'Open Sans' , sans-serif;
     text-decoration: none; 
-    color:orange;
+    color:#FA7535;
     transition-property:color;
     transition-duration: .5s;
     
@@ -24,4 +21,67 @@ a {
 
 a:hover {
 color:orangered; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0; 
+    padding 0;
+    overflow:hidden;
+    background-color: #494D4B;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a li {
+    display:block;
+    color: white;
+    text-align:center;
+    padding: 25px;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+.nav li:hover {
+    background-color: #111;
+}
+
+#active {
+    background-color:#FA7535;
+}
+
+.other {
+    float:right;
+    padding-right:3%
+}
+
+.content {
+    background-color:white;
+    display:block;
+    text-align:center;
+    margin:2.5%;
+    padding:2%
+}
+
+h2 {
+font-family: 'Open Sans' , sans-serif;
+}
+
+.heading {
+background-color:;
+}
+
+.heading h1 {
+    font-family: 'Open Sans' , sans-serif;
+    padding-left:2%;
+    font-size:38px
+}
+
+.headh2 {
+    font-size:22px;
+    float:right;
+    margin-top:10px;
+    padding-right:2%;
 }
